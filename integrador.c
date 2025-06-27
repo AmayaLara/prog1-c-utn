@@ -19,7 +19,7 @@ void main() {
     char destinos[MAX_PASAJEROS][30];
     int edades[MAX_PASAJEROS];
 
-    cargarPasajeros(dnis, nombres, apellidos, edades, codigosDestinos, destinos, cantPasajeros);
+    cargarPasajeros(dnis, nombres, apellidos, edades, codigosDestinos, cantPasajeros);
 
 
 
@@ -88,7 +88,7 @@ void cargarPasajeros(int dnis[], char nombres[][30], char apellidos[][30],
 
         printf("Ingrese codigo de destino (BRA, MDQ, MZA, BRC): \n");
         //todo pasar a to upper case
-        scanf("%s", destinos[i]);
+        scanf("%s", codigosDestinos[i]);
 
         
     }
